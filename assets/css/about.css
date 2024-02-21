@@ -1,0 +1,60 @@
+.main-about {
+    background-color: #020202;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  
+  .main-about .about-img {
+    width: 50%;
+  }
+  
+  .main-about .about-img img {
+    width: 100%;
+  }
+  
+  .main-about .about-content {
+    width: 50%;
+  }
+  
+  .main-about .about-content .about-text {
+    font-size: 80px;
+    color: #fff;
+    font-family: "Playball" !important;
+    margin: 0;
+  }
+  
+  .main-about .about-content .about-description {
+    color: white;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .main-about {
+      flex-direction: column;
+    }
+  
+    .main-about .about-img {
+      width: 100% !important;
+      justify-content: center;
+      display: flex;
+    }
+  
+    .main-about .about-content {
+      width: 100% !important;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main-about .about-text {
+      font-size: 40px !important;
+    }
+  
+    .main-about {
+      padding: 0 20px;
+    }
+  
+    .main-about .about-description {
+      font-size: 13px !important;
+    }
+  }
